@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <section class="game"></section>
+    <div class="game__container">
+      <button class="game__tab game__tab--new">🔄 new game</button>
+
+      <img src="Dice-1.png" class="dice" />
+
+      <button class="game__tab game__tab--roll">🎲 ROLL DICE</button>
+      <button class="game__tab game__tab--hold">📥 HOLD</button>
+      <div class="game__players">
+        <div class="game__player game__player--0">
+          <h2 class="game__playerTab">player 1</h2>
+          <output class="game__output game__output--0">0</output>
+          <div class="game__scores">
+            <h3 class="game__currentScores">current:</h3>
+            <output class="game__score game__score--0">0</output>
+          </div>
+        </div>
+        <div class="game__player game__player--1">
+          <h2 class="game__playerTab">player 2</h2>
+          <output class="game__output game__output--1">0</output>
+          <div class="game__scores">
+            <h3 class="game__currentScores">current:</h3>
+            <output class="game__score game__score--1">0</output>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
